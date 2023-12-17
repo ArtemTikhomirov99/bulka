@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:ital,wght@0,500;1,300&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+body {
+margin: 0;
+padding: 0;
+}
+.header {
+    height: 116px;  
+  }
+.info {
+    margin: 0 92px 0 92px;
+    /* border: 3px #000 solid; */
+    display: flex;
+}
+.conteiner {
+   background-size: contain;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: "Prosto One", cursive;  
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    color: #000;
+    text-align: left;
+    margin: 0;
+}
+.img-info {
+    border-radius: 46.38px;
+    width: 100%;
+}
+.info_txt {
+    margin-left: 50px;
+    display: inline-block;
+    width: 50%;
+}
+.gramss {
+    color: #666;
+    margin: 0;
+}
+h2 {
+    margin: 0 ;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    line-height: 60px;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+}
+
+.list p:nth-child(odd){
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666;
+    margin: 0 0 10px 0;
+}
+.list p:nth-child(even){
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    margin: 0 0 30px 0;
+}
+h2{
+    margin: 32px 0 71px 0;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0%;
+}
+/* Vector */
+.vector{
+color: #666;
+}
+.lake {
+border: none;
+background-color: white;
+cursor: pointer;
+padding: 0px;
+width: 31px;
+height: 29px;
+padding: 0;
+margin: 0;
+}
+
+.like, .like1 {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 0px;
+    width: 31px;
+    height: 29px;
+}
+
+.lake:hover{
+    content: ;
+    background-color: aqua;
+    clip-path: polygon(59% 6%, 52% 11%, 44% 7%, 33% 3%, 22% 5%, 10% 12%, 4% 23%, 2% 34%, 4% 46%, 11% 57%, 20% 68%, 27% 75%, 34% 82%, 42% 91%, 51% 97%, 57% 93%, 65% 88%, 70% 80%, 79% 71%, 86% 61%, 91% 54%, 95% 48%, 100% 38%, 98% 29%, 94% 18%, 90% 11%, 81% 4%, 73% 3%, 66% 3%);
+}
+
+.zakazat{ 
+    border-radius: 8px;
+    background-color: #000;
+    font-family: "Montserrat", cursive;
+    width: 194px;
+    height: 68px;
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    border: none;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.list {
+    margin-bottom: 100px;
+}
+.tovary {
+font-family: Prosto One;
+font-size: 40px;
+font-weight: 400;
+line-height: 52px;
+margin: 0 92px 60px 92px;
+}
+
+.kartatov {
+    width: 413.41px;
+    height: 413.41px;
+    margin-bottom: 32px;
+    display: inline-block;
+}
+.text2 {
+    font-family: Prosto One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin: 0;
+}
+.sele {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+
+}
+.zakazmal {
+    width: 131.24px;
+    height: 46px;
+    border-radius: 5.41px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.knopki {
+    display: flex;
+    align-items: center;
+}
+.like1 {
+    margin-left: 30.76px;
+}
+.stak{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#one {
+    margin-right: 20px;
+    width: 413.41px;
+    height: 100%;
+}
+#two {
+    margin-right: 20px;
+    width: 413.41px;
+    height: 100%;
+}
+#three {
+    margin-right: 20px;
+    width: 413.41px;
+    height: 100%;
+}
+#fhor {
+    margin-right: ;
+}
+.cena {
+    margin-right: 20px;
+    width: 413.41px;
+    height: 100%;
+}
+p {
+    display: block;
+}
+.sele {
+    display: block;
+}
+.next {
+    width: 17.27px;
+    height: 17.27px;
+    border: 0px, 4.32px, 4.32px, 0px;
+    opacity: 0.75px;
+     
+}
+.next1 {
+    border: none;
+    background: none;
+    padding: 0;
+}
